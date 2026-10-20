@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://ai-loan-approval-system-sj21.onrender.com";
 
 const request = async (endpoint, options = {}) => {
   const url = `${API_BASE}${endpoint}`;
